@@ -20,7 +20,7 @@ static SAMPLE_OGG: &[u8] = include_bytes!("../../Samples/OGG/3.ogg");
 fn main() {
     println!("===============================================================");
     println!("  SONICMORPH // Rust Audio Converter & Studio Monitor");
-    println!("  Copyright (c) YRLD Studios. All rights reserved.");
+    println!("  Created by YRLD Studios • Open Source (MIT License)");
     println!("===============================================================");
 
     let host = "127.0.0.1";

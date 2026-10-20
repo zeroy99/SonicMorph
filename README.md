@@ -1,5 +1,5 @@
 # SONICMORPH // Rust Audio Converter & Studio Monitor
-### Copyright © YRLD Studios. All rights reserved.
+### Created by YRLD Studios • Open Source (MIT License)
 
 A blazing-fast audio converter and studio monitor powered by **Rust** and **WebAssembly (WASM)**.
 
@@ -81,8 +81,9 @@ npm start
 - **hound** (Apache-2.0) — Pure-Rust WAV audio encoder & decoder.
 - **wasm-bindgen & Serde** (MIT / Apache-2.0) — WebAssembly bindings and serialization.
 - **Web Audio API** (W3C Standard) — Real-time audio DSP and frequency spectrum analyzer.
-- **Outfit & JetBrains Mono Fonts** (SIL OFL).
-
 ---
+ 
+## License
 
-*Copyright © YRLD Studios. All rights reserved.*
+This project is open-source software licensed under the [MIT License](LICENSE).
+Created by **YRLD Studios**. Free to use, modify, distribute, and build upon.
