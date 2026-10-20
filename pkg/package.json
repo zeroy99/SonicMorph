@@ -1,0 +1,15 @@
+{
+  "name": "converter_engine",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "converter_engine_bg.wasm",
+    "converter_engine.js",
+    "converter_engine.d.ts"
+  ],
+  "main": "converter_engine.js",
+  "types": "converter_engine.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
