@@ -1,0 +1,23 @@
+# Rust build artifacts
+target/
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# Node dependencies & logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,13 @@
+{
+  "name": "sonicmorph-audio-converter",
+  "version": "1.0.0",
+  "description": "High-Speed Rust WebAssembly Audio Converter and Studio Monitor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:wasm": "cd converter_engine && wasm-pack build --target web --release && copy pkg\\* ..\\pkg\\"
+  },
+  "keywords": ["rust", "wasm", "audio", "converter", "mp3", "wav", "ogg"],
+  "author": "SonicMorph",
+  "license": "MIT"
+}
